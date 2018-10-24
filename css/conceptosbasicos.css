@@ -1,0 +1,63 @@
+.container{
+	border:3px solid yelow;
+	position: relative;
+}
+
+nav{
+	border: 3px solid #005883;
+	position: absolute;
+	left:0;
+	width: 200px;
+}
+
+section{
+	border: 2px solid #F47920;
+	margin-left: 250px;
+	margin-bottom: 50px;
+	
+	height: 350px;
+}
+
+footer{
+	border: 3px solid black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	height: 70px;
+	background-color: white;
+}
+body{
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+.menu{
+	width: 500px;
+	height: 40px;
+	border: 5px solid #ccc;
+	float: right;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	background: #006699;
+}
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+}
