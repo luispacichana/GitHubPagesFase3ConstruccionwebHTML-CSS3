@@ -13,10 +13,10 @@ p{
 	width: 500px;
 	height: 50px;
 	border: 5px solid #ccc;
-	float: right;
+	
 	margin-top: 1px;
 	margin-bottom: 30px;
-	background: #006699;
+	background: #333333;
 }
 
 .menu ul{}
